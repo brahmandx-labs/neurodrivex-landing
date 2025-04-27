@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: #0F172A;
+  color: #0ff;
+  text-shadow:
+    0 0 2px #0ff,
+    0 0 8px #0ff,
+    0 0 1px #0ff,
+    0 0 32px #0ff,
+    0 0 64px #0ff;
+}
+
+.neon-text {
+  color: #0ff;
+  /* Neon blue text color */
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+}
+
+.neon-border {
+  border: 2px solid #0ff;
+  box-shadow: 0 0 5px #0ff, 0 0 15px #0ff;
+}
+
+.neon-border-t {
+  border-top: 2px solid #0ff;
+  box-shadow: 0 -2px 5px #0ff;
+}
